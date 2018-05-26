@@ -10,9 +10,6 @@ package com.openC.moteur;
  * <li>Un nombre de cylindres.</li>
  * </ul>
  * </p>
- * 
- * 
- * 
  * @author Lorraine
  * @version 1.0
  */

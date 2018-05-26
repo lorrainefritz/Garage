@@ -1,10 +1,12 @@
 package com.openC.moteur;
 /**
- * <b> TypeMoteur est un enum qui permet de stocker les différentes valeurs que peuvent être prisezs.</b>
+ * <b> TypeMoteur est un enum qui permet de stocker les différents types de moteurs .</b>
  * <p>
  * Un Type moteur est caractérisé par les informations suivantes :
  * <ul>
  * <li>Un type.</li> 
+ * </ul>
+ * </p>
  * @author Lorraine
  * @version 1.0
  */
