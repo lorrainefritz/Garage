@@ -32,4 +32,60 @@ public class Vehicule {
 	private Moteur moteur;
 	public ArrayList<Option> options = new ArrayList<>();
 
+	
+	
+	public Vehicule() {
+		System.out.println("J'instancie un vehicule");
+	}
+
+
+
+	public double getPrix() {
+		return prix;
+	}
+
+
+
+	public void setPrix(double prix) {
+		this.prix = prix;
+	}
+
+
+
+	public Marque getNomMarque() {
+		return nomMarque;
+	}
+
+
+
+	public void setNomMarque(Marque nomMarque) {
+		this.nomMarque = nomMarque;
+	}
+
+
+
+	public Moteur getMoteur() {
+		return moteur;
+	}
+
+
+
+	public void setMoteur(Moteur moteur) {
+		this.moteur = moteur;
+	}
+
+
+
+	public ArrayList<Option> getOptions() {
+		return options;
+	}
+
+
+
+	public void setOptions(ArrayList<Option> options) {
+		this.options = options;
+	}
+
+	
+	
 }
