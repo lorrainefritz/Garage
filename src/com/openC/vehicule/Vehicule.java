@@ -94,4 +94,20 @@ public class Vehicule {
 	public void addOption(Option opt) {
 		options.add(opt);
 	}
+
+	/**
+	 * Redéfinition de la méthode toString.
+	 * 
+	 * 
+	 * 
+	 * 
+	 */
+
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return String.format("voiture %Marque. %s. %Moteur. %Option. d'une valeur totale de %d", nomMarque, nom, moteur,
+				options, prix);
+	}
+
 }
