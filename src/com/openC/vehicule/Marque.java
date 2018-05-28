@@ -19,4 +19,12 @@ public enum Marque {
 	TROEN("Je suis une TROEN");
 	private String nom = "";
 
+	private Marque(String nom) {
+		this.nom = nom;
+	}
+
+	public String toString() {
+		return nom;
+	}
+
 }
