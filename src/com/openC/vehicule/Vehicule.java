@@ -84,4 +84,14 @@ public class Vehicule {
 		this.options = options;
 	}
 
+	/**
+	 * Ajoute une Option au vehicule.
+	 * 
+	 * 
+	 * 
+	 * @see Option
+	 */
+	public void addOption(Option opt) {
+		options.add(opt);
+	}
 }
