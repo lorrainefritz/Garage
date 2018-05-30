@@ -19,5 +19,28 @@ public abstract class Moteur {
 	private double prix;
 	private TypeMoteur type;
 	private String cylindre;
+	
+	
+	public abstract void Moteur (String cylindre, double prix);
 
+
+	public double getPrix() {
+		return prix;
+	}
+
+
+	public void setPrix(double prix) {
+		this.prix = prix;
+	}
+
+
+	public String getCylindre() {
+		return cylindre;
+	}
+
+
+	public void setCylindre(String cylindre) {
+		this.cylindre = cylindre;
+	}
+	
 }
