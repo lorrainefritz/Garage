@@ -66,6 +66,7 @@ public class Vehicule {
 
 	public void setNomMarque(Marque nomMarque) {
 		this.nomMarque = nomMarque;
+		System.out.println("je set une marque");
 	}
 
 	public Moteur getMoteur() {

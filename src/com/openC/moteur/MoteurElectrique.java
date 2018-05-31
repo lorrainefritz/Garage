@@ -2,11 +2,12 @@ package com.openC.moteur;
 
 public class MoteurElectrique extends Moteur {
 
-	@Override
-	public void Moteur(String cylindre, double prix) {
-		// TODO Auto-generated method stub
-		
+	
+	public MoteurElectrique(String cylindre, double prix) {
+		super(cylindre, prix);
+		// TODO Auto-generated constructor stub
 	}
+
 
 	
 	

@@ -21,7 +21,10 @@ public abstract class Moteur {
 	private String cylindre;
 	
 	
-	public abstract void Moteur (String cylindre, double prix);
+	public  Moteur (String cylindre, double prix) {
+		this.cylindre = cylindre;
+		this.prix = prix;
+	}
 
 
 	public double getPrix() {
@@ -42,5 +45,16 @@ public abstract class Moteur {
 	public void setCylindre(String cylindre) {
 		this.cylindre = cylindre;
 	}
+
+
+	public TypeMoteur getType() {
+		return type;
+	}
+
+
+	public void setType(TypeMoteur type) {
+		this.type = type;
+	}
+	
 	
 }
